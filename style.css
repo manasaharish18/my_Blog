@@ -99,3 +99,71 @@ footer {
     font-size: 20px;
   }
 }
+
+/* ---------- DREAMY THEME ---------- */
+
+body {
+  background: linear-gradient(180deg, #fdfcff, #f4f7f9);
+  color: #2f2f2f;
+  transition: background 0.5s ease;
+}
+
+/* Soft glowing header */
+header {
+  padding: 40px 20px;
+}
+
+/* Dreamy navigation */
+nav a {
+  color: #7a9cc6;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #5f7fa6;
+}
+
+/* Blog cards – dreamy glass effect */
+.blog-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(150, 170, 200, 0.25);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 60px rgba(150, 170, 200, 0.35);
+}
+
+/* Dreamy headings */
+h1, h2, h3 {
+  color: #3b4d66;
+}
+
+/* Calm reading experience */
+.blog-post {
+  line-height: 2;
+  font-size: 16.5px;
+}
+
+/* Soft links */
+a {
+  color: #7a9cc6;
+}
+
+a:hover {
+  color: #5f7fa6;
+}
+
+/* Dreamy footer */
+footer {
+  color: #9aa4b2;
+}
+/* ---------- PINK PURPLE DREAMY THEME ---------- */
+
+body {
+  background: linear-gradient(180deg, #fff1f7, #f3e8ff);
+  color: #3a2c3a;
+  transition:
