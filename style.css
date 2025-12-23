@@ -161,9 +161,43 @@ a:hover {
 footer {
   color: #9aa4b2;
 }
-/* ---------- PINK PURPLE DREAMY THEME ---------- */
+/* -------- MOBILE FIX FOR SMALL CONTENT -------- */
+@media (max-width: 768px) {
 
-body {
-  background: linear-gradient(180deg, #fff1f7, #f3e8ff);
-  color: #3a2c3a;
-  transition:
+  body {
+    min-height: 100vh;
+  }
+
+  main {
+    min-height: 70vh;
+    padding: 30px 18px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .blog-container {
+    margin-top: 25px;
+  }
+
+  .blog-card {
+    padding: 22px;
+  }
+
+  footer {
+    margin-top: 40px;
+  }
+}
