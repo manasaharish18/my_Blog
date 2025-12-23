@@ -201,3 +201,9 @@ footer {
     margin-top: 40px;
   }
 }
+/* ---------- PINK PURPLE DREAMY THEME ---------- */
+
+body {
+  background: linear-gradient(180deg, #fff1f7, #f3e8ff);
+  color: #3a2c3a;
+  transition:
